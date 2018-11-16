@@ -1,8 +1,12 @@
 ---
 title: vim配置lua
 date: 2018-10-25 10:39:33
-categories: Ubuntu
-tags: vim
+categories: 
+- [linux,Ubuntu]
+tags: 
+- vim
+- Ubuntu
+- linux
 ---
 # ubuntu vim 添加lua支持
 
