@@ -5,6 +5,8 @@ tags: Git
 categories: Git
 ---
 
+# ----
+
 ![Alt text](/images/git.png)
 
 图片取自 [阮一峰的网络日志](http://www.ruanyifeng.com/blog/2015/12/git-cheat-sheet.html)
@@ -15,6 +17,7 @@ categories: Git
 * Remote：远程仓库
 
 <!--more-->
+
 ## 查看git当前配置
 
 git配置在 __.git__ 文件夹config文件,默认隐藏文件夹，
@@ -48,6 +51,14 @@ git init
 
 ``` bash
 git pull
+```
+
+## git add 命令
+
+添加文件到暂存区
+
+``` bash
+ git add
 ```
 
 ## git commit 命令
