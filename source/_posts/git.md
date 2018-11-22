@@ -1,7 +1,9 @@
 ---
 title: git常用命令
 date: 2018-09-21 17:22:10
-tags: Git
+tags: 
+- Windows
+- Git
 categories: Git
 ---
 
@@ -68,3 +70,11 @@ git pull
 ``` bash
 git commit -m [message]
 ```
+
+## git 生成ssh key
+
+``` bash
+ssh-keygen -t rsa -C "your@email.com"
+```
+
+运行命令后会生成.ssh 文件夹，里面会有id_rsa.pub文件里会有ssh-key
