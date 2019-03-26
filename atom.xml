@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>fang&#39;s note</title>
+  
+  <subtitle>Welcome</subtitle>
+  <link href="/atom.xml" rel="self"/>
+  
+  <link href="https://blackbackpacks.github.io/"/>
+  <updated>2019-03-26T13:48:58.354Z</updated>
+  <id>https://blackbackpacks.github.io/</id>
+  
+  <author>
+    <name>Fang Li</name>
+    
+  </author>
+  
+  <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>JavaScript基本数据类型</title>
+    <link href="https://blackbackpacks.github.io/2019/03/26/JavaScript%E5%9F%BA%E6%9C%AC%E6%95%B0%E6%8D%AE%E7%B1%BB%E5%9E%8B/"/>
+    <id>https://blackbackpacks.github.io/2019/03/26/JavaScript基本数据类型/</id>
+    <published>2019-03-26T13:42:40.000Z</published>
+    <updated>2019-03-26T13:48:58.354Z</updated>
+    
+    <content type="html"><![CDATA[<h1 id="JavaScript的基本数据类型"><a href="#JavaScript的基本数据类型" class="headerlink" title="JavaScript的基本数据类型"></a>JavaScript的基本数据类型</h1><ul><li>Number (数字)</li><li>String (字符串)</li><li>Boolean (布尔)</li><li>Object (对象)<ul><li>Function (函数)</li><li>Array (数组)</li><li>Date (日期)</li><li>RegExp (正则表达式)</li></ul></li><li>Symbol (符号)</li><li>Null (空)</li><li>Undefined (未定义)</li></ul>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;h1 id=&quot;JavaScript的基本数据类型&quot;&gt;&lt;a href=&quot;#JavaScript的基本数据类型&quot; class=&quot;headerlink&quot; title=&quot;JavaScript的基本数据类型&quot;&gt;&lt;/a&gt;JavaScript的基本数据类型&lt;/h1&gt;&lt;ul&gt;
+&lt;li&gt;Numb
+      
+    
+    </summary>
+    
+    
+      <category term="JavaScript" scheme="https://blackbackpacks.github.io/tags/JavaScript/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>npm命令本地安装和全局安装</title>
+    <link href="https://blackbackpacks.github.io/2018/11/21/npm%E5%91%BD%E4%BB%A4/"/>
+    <id>https://blackbackpacks.github.io/2018/11/21/npm命令/</id>
+    <published>2018-11-21T07:36:19.000Z</published>
+    <updated>2018-11-23T12:43:42.778Z</updated>
+    
+    <content type="html"><![CDATA[<p><strong>npm install</strong> 四种命令模式的区别</p><a id="more"></a><table><thead><tr><th>名称</th><th>描述</th><th>简写</th></tr></thead><tbody><tr><td>npm install **</td><td>安装 ** 模块，但不记录在package.json 里</td><td>npm i **</td></tr><tr><td>npm install –save **</td><td>安装 ** 模块并记录在package.json里，字段对应dependency,是产品环境必须以来的模块</td><td>npm i -s **</td></tr><tr><td>npm install –save-dev **</td><td>安装 ** 模块 并记录在package.json里，字段对应 dev-dependency，是开发环境依赖的模块，测试类或者打包工具等</td><td>npm i -D **</td></tr><tr><td>npm install -global **</td><td>全局安装 ** 模块，但是不记录在package.json里，如果模块package.json 里有bin 配置，会自动链接，作为cli命令</td><td>npm i -g **</td></tr></tbody></table><blockquote><p>参考 <a href="https://i5ting.github.io/How-to-learn-node-correctly/#1090203" target="_blank" rel="noopener">如何正确的学习Node.js</a></p></blockquote>]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;&lt;strong&gt;npm install&lt;/strong&gt; 四种命令模式的区别&lt;/p&gt;
+    
+    </summary>
+    
+    
+      <category term="npm" scheme="https://blackbackpacks.github.io/tags/npm/"/>
+    
+      <category term="node" scheme="https://blackbackpacks.github.io/tags/node/"/>
+    
+      <category term="javascript" scheme="https://blackbackpacks.github.io/tags/javascript/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>vue.js 基础</title>
+    <link href="https://blackbackpacks.github.io/2018/11/06/vue-js-%E5%9F%BA%E7%A1%80/"/>
+    <id>https://blackbackpacks.github.io/2018/11/06/vue-js-基础/</id>
+    <published>2018-11-06T07:03:49.000Z</published>
+    <updated>2018-11-18T14:00:33.702Z</updated>
+    
+    <content type="html"><![CDATA[<h1 id="vue-基础学习"><a href="#vue-基础学习" class="headerlink" title="vue 基础学习"></a>vue 基础学习</h1><h2 id="v-bind缩写"><a href="#v-bind缩写" class="headerlink" title="v-bind缩写"></a>v-bind缩写</h2><figure class="highlight html"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">&lt;!-- 完整语法 --&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">a</span> <span class="attr">v-bind:href</span>=<span class="string">"url"</span>&gt;</span>...<span class="tag">&lt;/<span class="name">a</span>&gt;</span></span><br><span class="line"></span><br><span class="line"><span class="comment">&lt;!-- 缩写 --&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">a</span> <span class="attr">:href</span>=<span class="string">"url"</span>&gt;</span><span class="tag">&lt;/<span class="name">a</span>&gt;</span></span><br></pre></td></tr></table></figure><h2 id="v-on-缩写"><a href="#v-on-缩写" class="headerlink" title="v-on 缩写"></a>v-on 缩写</h2><figure class="highlight html"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">&lt;!-- 完整语法 --&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">input</span> <span class="attr">v-on:click</span>=<span class="string">"show"</span>&gt;</span></span><br><span class="line"></span><br><span class="line"><span class="comment">&lt;!-- 缩写 --&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">input</span> @<span class="attr">click</span>=<span class="string">"show"</span>&gt;</span></span><br></pre></td></tr></table></figure>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;h1 id=&quot;vue-基础学习&quot;&gt;&lt;a href=&quot;#vue-基础学习&quot; class=&quot;headerlink&quot; title=&quot;vue 基础学习&quot;&gt;&lt;/a&gt;vue 基础学习&lt;/h1&gt;&lt;h2 id=&quot;v-bind缩写&quot;&gt;&lt;a href=&quot;#v-bind缩写&quot; class=&quot;head
+      
+    
+    </summary>
+    
+      <category term="前端" scheme="https://blackbackpacks.github.io/categories/%E5%89%8D%E7%AB%AF/"/>
+    
+      <category term="vue" scheme="https://blackbackpacks.github.io/categories/%E5%89%8D%E7%AB%AF/vue/"/>
+    
+    
+      <category term="vue" scheme="https://blackbackpacks.github.io/tags/vue/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>vim配置lua</title>
+    <link href="https://blackbackpacks.github.io/2018/10/25/vim%E9%85%8D%E7%BD%AElua/"/>
+    <id>https://blackbackpacks.github.io/2018/10/25/vim配置lua/</id>
+    <published>2018-10-25T02:39:33.000Z</published>
+    <updated>2018-11-18T14:00:33.686Z</updated>
+    
+    <content type="html"><![CDATA[<h1 id="ubuntu-vim-添加lua支持"><a href="#ubuntu-vim-添加lua支持" class="headerlink" title="ubuntu vim 添加lua支持"></a>ubuntu vim 添加lua支持</h1><p>系统:Ubuntu 15.10/16.04<br>因为系统自带的vim不支持lua,所以自己添加支持。</p><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">sudo apt install vim-nox</span><br></pre></td></tr></table></figure><p>这样就添加了lua支持。</p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;h1 id=&quot;ubuntu-vim-添加lua支持&quot;&gt;&lt;a href=&quot;#ubuntu-vim-添加lua支持&quot; class=&quot;headerlink&quot; title=&quot;ubuntu vim 添加lua支持&quot;&gt;&lt;/a&gt;ubuntu vim 添加lua支持&lt;/h1&gt;&lt;p&gt;系统:Ubu
+      
+    
+    </summary>
+    
+      <category term="linux" scheme="https://blackbackpacks.github.io/categories/linux/"/>
+    
+      <category term="Ubuntu" scheme="https://blackbackpacks.github.io/categories/linux/Ubuntu/"/>
+    
+    
+      <category term="vim" scheme="https://blackbackpacks.github.io/tags/vim/"/>
+    
+      <category term="Ubuntu" scheme="https://blackbackpacks.github.io/tags/Ubuntu/"/>
+    
+      <category term="linux" scheme="https://blackbackpacks.github.io/tags/linux/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>git常用命令</title>
+    <link href="https://blackbackpacks.github.io/2018/09/21/git/"/>
+    <id>https://blackbackpacks.github.io/2018/09/21/git/</id>
+    <published>2018-09-21T09:22:10.000Z</published>
+    <updated>2018-11-23T12:43:42.770Z</updated>
+    
+    <content type="html"><![CDATA[<h1 id="—"><a href="#—" class="headerlink" title="—-"></a>—-</h1><p><img src="/images/git.png" alt="Alt text"></p><p>图片取自 <a href="http://www.ruanyifeng.com/blog/2015/12/git-cheat-sheet.html" target="_blank" rel="noopener">阮一峰的网络日志</a></p><ul><li>Workspace：工作区</li><li>Index/Stage：暂存区</li><li>Repostory： 仓库区（或本地仓库）</li><li>Remote：远程仓库</li></ul><a id="more"></a><h2 id="查看git当前配置"><a href="#查看git当前配置" class="headerlink" title="查看git当前配置"></a>查看git当前配置</h2><p>git配置在 <strong>.git</strong> 文件夹config文件,默认隐藏文件夹，</p><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">git config -l</span><br><span class="line"><span class="comment">#设置提交代码用户信息</span></span><br><span class="line">git config [-global] user.name <span class="string">"name"</span></span><br><span class="line">git config [-global] user.email <span class="string">"email address"</span></span><br></pre></td></tr></table></figure><h2 id="git-init"><a href="#git-init" class="headerlink" title="git init"></a>git init</h2><p>在当前目录新建git 仓库（repository）会生成 <strong>.git</strong> 文件夹</p><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">git init</span><br></pre></td></tr></table></figure><h2 id="git-clone-命令"><a href="#git-clone-命令" class="headerlink" title="git clone 命令"></a>git clone 命令</h2><p>将远程源码下载/复制到本地当前目录</p><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">git <span class="built_in">clone</span> [url]</span><br></pre></td></tr></table></figure><h2 id="git-pull-命令"><a href="#git-pull-命令" class="headerlink" title="git pull 命令"></a>git pull 命令</h2><p>更新当前文件夹源码</p><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">git pull</span><br></pre></td></tr></table></figure><h2 id="git-add-命令"><a href="#git-add-命令" class="headerlink" title="git add 命令"></a>git add 命令</h2><p>添加文件到暂存区</p><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">git add</span><br></pre></td></tr></table></figure><h2 id="git-commit-命令"><a href="#git-commit-命令" class="headerlink" title="git commit 命令"></a>git commit 命令</h2><p>提交暂存区到仓库区</p><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">git commit -m [message]</span><br></pre></td></tr></table></figure><h2 id="git-生成ssh-key"><a href="#git-生成ssh-key" class="headerlink" title="git 生成ssh key"></a>git 生成ssh key</h2><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">ssh-keygen -t rsa -C <span class="string">"your@email.com"</span></span><br></pre></td></tr></table></figure><p>运行命令后会生成.ssh 文件夹，里面会有id_rsa.pub文件里会有ssh-key</p>]]></content>
+    
+    <summary type="html">
+    
+      &lt;h1 id=&quot;—&quot;&gt;&lt;a href=&quot;#—&quot; class=&quot;headerlink&quot; title=&quot;—-&quot;&gt;&lt;/a&gt;—-&lt;/h1&gt;&lt;p&gt;&lt;img src=&quot;/images/git.png&quot; alt=&quot;Alt text&quot;&gt;&lt;/p&gt;
+&lt;p&gt;图片取自 &lt;a href=&quot;http://www.ruanyifeng.com/blog/2015/12/git-cheat-sheet.html&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;阮一峰的网络日志&lt;/a&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Workspace：工作区&lt;/li&gt;
+&lt;li&gt;Index/Stage：暂存区&lt;/li&gt;
+&lt;li&gt;Repostory： 仓库区（或本地仓库）&lt;/li&gt;
+&lt;li&gt;Remote：远程仓库&lt;/li&gt;
+&lt;/ul&gt;
+    
+    </summary>
+    
+      <category term="Git" scheme="https://blackbackpacks.github.io/categories/Git/"/>
+    
+    
+      <category term="Windows" scheme="https://blackbackpacks.github.io/tags/Windows/"/>
+    
+      <category term="Git" scheme="https://blackbackpacks.github.io/tags/Git/"/>
+    
+  </entry>
+  
+</feed>

@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<search>
+  <entry>
+    <title><![CDATA[JavaScript基本数据类型]]></title>
+    <url>%2F2019%2F03%2F26%2FJavaScript%E5%9F%BA%E6%9C%AC%E6%95%B0%E6%8D%AE%E7%B1%BB%E5%9E%8B%2F</url>
+    <content type="text"><![CDATA[JavaScript的基本数据类型 Number (数字) String (字符串) Boolean (布尔) Object (对象) Function (函数) Array (数组) Date (日期) RegExp (正则表达式) Symbol (符号) Null (空) Undefined (未定义)]]></content>
+      <tags>
+        <tag>JavaScript</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title><![CDATA[npm命令本地安装和全局安装]]></title>
+    <url>%2F2018%2F11%2F21%2Fnpm%E5%91%BD%E4%BB%A4%2F</url>
+    <content type="text"><![CDATA[npm install 四种命令模式的区别 名称 描述 简写 npm install ** 安装 ** 模块，但不记录在package.json 里 npm i ** npm install –save ** 安装 ** 模块并记录在package.json里，字段对应dependency,是产品环境必须以来的模块 npm i -s ** npm install –save-dev ** 安装 ** 模块 并记录在package.json里，字段对应 dev-dependency，是开发环境依赖的模块，测试类或者打包工具等 npm i -D ** npm install -global ** 全局安装 ** 模块，但是不记录在package.json里，如果模块package.json 里有bin 配置，会自动链接，作为cli命令 npm i -g ** 参考 如何正确的学习Node.js]]></content>
+      <tags>
+        <tag>npm</tag>
+        <tag>node</tag>
+        <tag>javascript</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title><![CDATA[vue.js 基础]]></title>
+    <url>%2F2018%2F11%2F06%2Fvue-js-%E5%9F%BA%E7%A1%80%2F</url>
+    <content type="text"><![CDATA[vue 基础学习v-bind缩写12345&lt;!-- 完整语法 --&gt;&lt;a v-bind:href="url"&gt;...&lt;/a&gt;&lt;!-- 缩写 --&gt;&lt;a :href="url"&gt;&lt;/a&gt; v-on 缩写12345&lt;!-- 完整语法 --&gt;&lt;input v-on:click="show"&gt;&lt;!-- 缩写 --&gt;&lt;input @click="show"&gt;]]></content>
+      <categories>
+        <category>前端</category>
+        <category>vue</category>
+      </categories>
+      <tags>
+        <tag>vue</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title><![CDATA[vim配置lua]]></title>
+    <url>%2F2018%2F10%2F25%2Fvim%E9%85%8D%E7%BD%AElua%2F</url>
+    <content type="text"><![CDATA[ubuntu vim 添加lua支持系统:Ubuntu 15.10/16.04因为系统自带的vim不支持lua,所以自己添加支持。 1sudo apt install vim-nox 这样就添加了lua支持。]]></content>
+      <categories>
+        <category>linux</category>
+        <category>Ubuntu</category>
+      </categories>
+      <tags>
+        <tag>vim</tag>
+        <tag>Ubuntu</tag>
+        <tag>linux</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title><![CDATA[git常用命令]]></title>
+    <url>%2F2018%2F09%2F21%2Fgit%2F</url>
+    <content type="text"><![CDATA[—- 图片取自 阮一峰的网络日志 Workspace：工作区 Index/Stage：暂存区 Repostory： 仓库区（或本地仓库） Remote：远程仓库 查看git当前配置git配置在 .git 文件夹config文件,默认隐藏文件夹， 1234git config -l#设置提交代码用户信息git config [-global] user.name "name"git config [-global] user.email "email address" git init在当前目录新建git 仓库（repository）会生成 .git 文件夹 1git init git clone 命令将远程源码下载/复制到本地当前目录 1git clone [url] git pull 命令更新当前文件夹源码 1git pull git add 命令添加文件到暂存区 1git add git commit 命令提交暂存区到仓库区 1git commit -m [message] git 生成ssh key1ssh-keygen -t rsa -C "your@email.com" 运行命令后会生成.ssh 文件夹，里面会有id_rsa.pub文件里会有ssh-key]]></content>
+      <categories>
+        <category>Git</category>
+      </categories>
+      <tags>
+        <tag>Windows</tag>
+        <tag>Git</tag>
+      </tags>
+  </entry>
+</search>
